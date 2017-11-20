@@ -9,6 +9,10 @@
   "author": "Ali Ramazon",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^2.2.33"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "i": "^0.3.6",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.4"
   }
 }
