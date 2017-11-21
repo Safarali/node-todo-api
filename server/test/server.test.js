@@ -86,14 +86,14 @@ describe('GET /todos/:id', () => {
         let id = new ObjectID();
         request(app)
             .get(`/todos/${id}`)
-            .expect(404)
+            .expect(400)
             .end(done);
     });
 
     it('should return 404 for non-object id', done => {
         request(app)
             .get('/todos/123456')
-            .expect(404)
+            .expect(400)
             .end(done);
     });
 });
